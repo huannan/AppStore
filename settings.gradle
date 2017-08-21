@@ -1,0 +1,1 @@
+include ':app', ':bottomtab', ':quickadapter', ':tagcloud', ':expandabletextview', ':scanQrcodeLib', ':circleindicator', ':photoview', ':rxdownload2', ':progressbutton', ':sharesdk'

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="13dp"
+        android:scrollbars="none">
+
+        <com.fyales.tagcloud.library.TagCloudLayout
+            android:id="@+id/tcl_hot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:lineSpacing="10dp"
+            app:tagSpacing="15dp" />
+
+    </ScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/ll_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+
+        <include layout="@layout/v_loading" />
+
+    </LinearLayout>
+
+</RelativeLayout>

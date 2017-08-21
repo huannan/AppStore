@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="expand_string">展开</string>
+    <string name="collapsed_string">收起</string>
+</resources>

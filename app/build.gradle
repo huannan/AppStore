@@ -1,0 +1,62 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.jakewharton.butterknife'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "25.0.0"
+    defaultConfig {
+        applicationId "com.nan.appstore"
+        minSdkVersion 14
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.android.support:support-v4:24.2.1'
+    compile 'com.android.support:recyclerview-v7:24.2.1'
+    compile 'com.android.support:design:24.2.1'
+    compile 'com.jakewharton:butterknife:8.4.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.squareup.retrofit2:retrofit:2.1.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+    //    compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+    compile 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0'
+    compile 'io.reactivex.rxjava2:rxjava:2.0.1'
+    compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    compile project(':bottomtab')
+    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'cn.bingoogolapple:bga-refreshlayout:1.1.6'
+    compile 'com.daimajia.slider:library:1.1.5'
+    compile 'com.afollestad.material-dialogs:core:0.9.1.0'
+    compile project(':quickadapter')
+    compile project(':tagcloud')
+    //    compile project(':expandtext')
+    compile project(':expandabletextview')
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile project(':scanQrcodeLib')
+    compile 'com.bm.photoview:library:1.4.1'
+    //    compile 'zlc.season:rxdownload2:1.0.0'
+    compile project(':circleindicator')
+    //    compile project(':photoview')
+    compile project(':rxdownload2')
+    compile 'com.tbruyelle.rxpermissions2:rxpermissions:0.8.2@aar'
+    //    compile 'zlc.season:practicalrecyclerview:1.0.8'
+    compile project(':progressbutton')
+    compile project(':sharesdk')
+}

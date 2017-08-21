@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl_root"
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/list_item_bg">
+
+        <RelativeLayout
+            android:id="@+id/item_top"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:id="@+id/iv_icon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/ic_default" />
+
+            <RelativeLayout
+                android:id="@+id/item_action"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:gravity="center">
+
+                <com.nan.appstore.widget.ProgressButton
+                    android:id="@+id/btn_download"
+                    android:layout_width="27dp"
+                    android:layout_height="27dp"
+                    android:layout_centerHorizontal="true" />
+
+                <!--<Button-->
+                <!--android:id="@+id/btn_download"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerHorizontal="true" />-->
+
+                <TextView
+                    android:id="@+id/tv_action"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/btn_download"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:lines="1"
+                    android:text="@string/download"
+                    android:textColor="@color/title"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/item_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/item_action"
+                android:layout_toRightOf="@id/iv_icon">
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:textColor="#ff333333"
+                    android:textSize="16dp" />
+
+                <RatingBar
+                    android:id="@+id/rb_rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="14dp"
+                    android:layout_below="@id/tv_title"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="2dp"
+                    android:isIndicator="true"
+                    android:progressDrawable="@drawable/ratingbar_small"
+                    android:rating="5.0" />
+
+                <TextView
+                    android:id="@+id/tv_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rb_rating"
+                    android:singleLine="true"
+                    android:textColor="#ff7a7a7a"
+                    android:textSize="12dp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/item_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/item_top"
+            android:layout_marginLeft="@dimen/line_mar"
+            android:layout_marginRight="@dimen/line_mar"
+            android:background="@color/item_divider" />
+
+        <TextView
+            android:id="@+id/item_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@id/item_divider"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="#ff717171"
+            android:textSize="14dp" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>

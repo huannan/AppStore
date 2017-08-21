@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AppStore.iml" filepath="$PROJECT_DIR$/AppStore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bottomtab/bottomtab.iml" filepath="$PROJECT_DIR$/bottomtab/bottomtab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/circleindicator/circleindicator.iml" filepath="$PROJECT_DIR$/circleindicator/circleindicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/expandabletextview/expandabletextview.iml" filepath="$PROJECT_DIR$/expandabletextview/expandabletextview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/photoview/photoview.iml" filepath="$PROJECT_DIR$/photoview/photoview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/progressbutton/progressbutton.iml" filepath="$PROJECT_DIR$/progressbutton/progressbutton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quickadapter/quickadapter.iml" filepath="$PROJECT_DIR$/quickadapter/quickadapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rxdownload2/rxdownload2.iml" filepath="$PROJECT_DIR$/rxdownload2/rxdownload2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scanQrcodeLib/scanQrcodeLib.iml" filepath="$PROJECT_DIR$/scanQrcodeLib/scanQrcodeLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sharesdk/sharesdk.iml" filepath="$PROJECT_DIR$/sharesdk/sharesdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tagcloud/tagcloud.iml" filepath="$PROJECT_DIR$/tagcloud/tagcloud.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/green</color>
+    <color name="colorPrimaryDark">@color/green</color>
+    <color name="colorAccent">@color/green</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="green">#52CA85</color>
+    <color name="green_alpha">#8852CA85</color>
+    <color name="bg">#EFEEE9</color>
+
+    <color name="indicator_selected">@color/green</color>
+    <color name="indicator_unselected">@color/white</color>
+
+    <color name="item_divider">#f0d7d7d7</color>
+
+    <color name="detail_screen_bg">#adadad</color>
+    <color name="text_default">#ff717171</color>
+    <color name="red">#F95153</color>
+</resources>

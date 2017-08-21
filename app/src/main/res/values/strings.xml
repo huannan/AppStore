@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">应用商店</string>
+
+    <string name="tab_apps">应用圈</string>
+    <string name="tab_games">游戏</string>
+    <string name="tab_class">分类</string>
+    <string name="tab_mine">我的</string>
+
+    <string name="tab1_home">首页</string>
+    <string name="tab1_app">应用</string>
+    <string name="tab1_subject">专题</string>
+    <string name="tab1_recommend">推荐</string>
+    <string name="tab1_hot">排行</string>
+
+    <string name="loading_des">加载中，很快就好啦...</string>
+    <string name="package_manage">安装包管理</string>
+    <string name="setting">设置</string>
+    <string name="theme">主题</string>
+    <string name="feedback">反馈</string>
+    <string name="updates">检查更新</string>
+    <string name="about">关于</string>
+    <string name="exit">退出</string>
+    <string name="update_info">已经是最新版本啦O(∩_∩)O~~</string>
+    <string name="about_msg_1">作者姓名：吴焕楠</string>
+    <string name="about_msg_2">班级：13电子信息工程2班</string>
+    <string name="about_msg_3">学号：3113002620</string>
+    <string name="positive_button">确定</string>
+    <string name="negative_button">取消</string>
+    <string name="exit_msg">你确定要退出吗？</string>
+    <string name="title_download">人在用</string>
+    <string name="title_date">时间：</string>
+    <string name="title_version">版本：</string>
+    <string name="title_size">大小：</string>
+    <string name="detail">[详情]</string>
+    <string name="red_paper">下载应用领红包，最高200元</string>
+    <string name="watch">查看</string>
+    <string name="official">官</string>
+    <string name="manage_download">下载管理</string>
+    <string name="manage_tools_clear">手机清理</string>
+    <string name="manage_receive_file_inco">收到的文件</string>
+    <string name="manage_tools_battery">超强省电</string>
+    <string name="manage_uninstall_icon">应用卸载</string>
+    <string name="manage_tools_freeze">冷冻室</string>
+    <string name="not_set_name">请登录</string>
+    <string name="not_set_school">请选择学校</string>
+    <string name="main_name">应用商店</string>
+    <string name="light">闪光灯</string>
+    <string name="photo">相册</string>
+    <string name="scan">扫码</string>
+    <string name="input_ip">IP地址设置</string>
+    <string name="input_content_ip">请指定服务端的IP地址</string>
+    <string name="input_hint_ip">IP地址</string>
+    <string name="input_prefill_ip"></string>
+    <string name="download">下载</string>
+
+</resources>
